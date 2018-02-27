@@ -1,0 +1,26 @@
+{
+  "name": "eml-examples",
+  "version": "0.0.1",
+  "author": "Vlad Trushin",
+  "description": "EML examples",
+  "homepage": "https://github.com/eml-lib/eml-examples",
+  "repository": "eml-lib/eml-examples",
+  "watch": {
+    "eml": {
+      "patterns": "src",
+      "extensions": "eml"
+    }
+  },
+  "scripts": {
+    "eml": "eml -i 'src/**/*.eml'",
+    "watch": "npm-watch eml"
+  },
+  "dependencies": {
+    "eml-cli": "../eml-cli",
+    "npm-watch": "^0.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/eml-lib/eml/issues"
+  },
+  "license": "ISC"
+}

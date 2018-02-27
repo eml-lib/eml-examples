@@ -1,0 +1,56 @@
+<eml background-color="#ebecee">
+    <block background-color="#fff">
+
+        <block padding="15px 70px">
+            <image
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Avito_logo.png"
+                width="100"
+            />
+        </block>
+
+        <block padding="45px 70px" background-color="#344968">
+            <block color="white" padding-bottom="30px">Приближается важный праздник</block>
+            <block>
+                <link
+                    to="ya.ru"
+                    color="white"
+                    text-decoration="none"
+                    padding="20px 50px"
+                    background-color="#feb020"
+                >
+                    Урвать скидон
+                </link>
+            </block>
+        </block>
+
+        <block padding="45px 70px" border-bottom="2px solid #ebecee">
+            <block margin-bottom="30px">
+                В дни, когда принято поздравлять ветеранов и радоваться мирному небу, у вас наверняка будет много дел. Но найдите минуту, чтобы заглянуть в личный кабинет на Avito. Для чего?
+            </block>
+            <block padding="30px" background-color="#f8f5e2" margin-bottom="30px">
+                Чтобы использовать акцию по максимуму, добавьте объявление прямо сейчас, а 8 и 9 мая подключите «усилители». Действуйте!
+            </block>
+            <block>
+                <link
+                        to="ya.ru"
+                        color="white"
+                        text-decoration="none"
+                        padding="20px 50px"
+                        background-color="#feb020"
+                >
+                    Урвать скидон
+                </link>
+            </block>
+        </block>
+
+        <block padding="45px 70px">
+            <block>Установите мобильное приложение Avito</block>
+            <block>
+                <block>Вы получили это письмо, потому что являетесь</block>
+                <link>зарегистрированным пользователем</link>
+                <block>сайта Avito</block>
+            </block>
+        </block>
+
+    </block>
+</eml>
