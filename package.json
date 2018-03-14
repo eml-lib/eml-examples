@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "eml": "eml -i 'src/**/*.eml'",
+    "eml": "eml -i 'src/2/*.eml'",
     "watch": "npm-watch eml"
   },
   "dependencies": {
