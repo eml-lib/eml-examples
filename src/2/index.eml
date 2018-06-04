@@ -1,6 +1,6 @@
 <eml>
     <block flex-direction="row">
-        <block border="1px solid red" gap="10">
+        <block border="1px solid red" gap="10" flex="1">
             <block>1</block>
             <block flex="2">2</block>
             <block>3</block>
