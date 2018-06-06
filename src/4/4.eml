@@ -1,5 +1,5 @@
 <eml>
-    <flex flow-direction="column">
+    <flex direction="column">
         <flex-item padding="15px 70px">
             <image
                 src="https://raw.githubusercontent.com/eml-lib/eml-examples/master/src/1/logo.jpg"
@@ -13,7 +13,7 @@
             background-image="https://raw.githubusercontent.com/eml-lib/eml-examples/master/src/1/bg.jpg"
             background-position="right bottom"
         >
-            <flex gap="30px" flow-direction="column">
+            <flex direction="column" gap="30px">
                 <flex-item color="white">Приближается важный праздник</flex-item>
                 <flex-item>
                     <link
@@ -30,7 +30,7 @@
             </flex>
         </flex-item>
         <flex-item padding="45px 70px" border-bottom="2px solid #ebecee">
-            <flex gap="30px" flow-direction="column">
+            <flex direction="column" gap="30px">
                 <flex-item>
                     В дни, когда принято поздравлять ветеранов и радоваться мирному небу, у вас наверняка будет много дел. Но найдите минуту, чтобы заглянуть в личный кабинет на Avito. Для чего?
                 </flex-item>
