@@ -1,38 +1,14 @@
 const fs = require('fs');
+// const { render, components, createElement } = require('../eml');
 const { render, components, createElement } = require('../eml');
 // import { render, components } from '../eml';
+import template from './block';
+// import template from './planning-time';
+// import template from './link';
+// import template from './flex';
 
-const {
-	AutoGrid,
-	Eml,
-	Flex,
-	FlexItem
-} = components;
+const html = render(template);
 
-// const eml = (
-//   <Eml>
-//     <Flex direction='column' gap={20}>
-//       <FlexItem background={{ color: 'lightblue' }}>
-//         1234
-//       </FlexItem>
-//       <FlexItem background={{ color: 'lightgreen' }}>
-//         4566
-//       </FlexItem>
-//     </Flex>
-//   </Eml>
-// );
+fs.writeFileSync('./eml.html', html, 'utf8');
 
-const eml = (
-	<div>
-		<AutoGrid>
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
-			<div>4</div>
-		</AutoGrid>
-	</div>
-);
-
-fs.writeFileSync('./eml.html', render(eml), 'utf8');
-
-console.log(render(eml));
+// console.log(render(eml));

@@ -15,7 +15,7 @@ export default {
         // Changes package path to relative
         nodeResolve(),
         commonJs({
-            include: ['node_modules/**', '../eml-core']
+            include: 'node_modules/**'
         }),
         babel({
             exclude: 'node_modules/**',
