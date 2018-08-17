@@ -12,45 +12,71 @@ const {
 
 export default (
 	<Eml>
-
-		<p>Row</p>
-
 		<Flex>
-			<div flex={1}>1</div>
-			<div>2</div>
-			3
+			<Block width={20} height={20} backgroundColor="lightblue">1</Block>
+			<Block flex={1} height={40} backgroundColor="pink">2</Block>
+			<Block flexAlignSelf="end" width={40} height={20} backgroundColor="lightgreen">3</Block>
 		</Flex>
 
-		<Flex gap={20} background="yellow" padding={20}>
-			<Block flex={1} background="red">
-				1
-			</Block>
-			<Block flex={2} background="green" flexAlignSelf="start">
-				2
-			</Block>
-			<Block flex={2} background="blue" flexAlignSelf="end">
-				3
-			</Block>
-			<Block flex={3} background="cyan">
-				4
-				<br/>
-				5
-			</Block>
+		<p>&nbsp;</p>
+
+		<Flex gap={2}>
+			<Block width={20} height={20} backgroundColor="lightblue">1</Block>
+			<Block width={20} height={40} backgroundColor="pink">2</Block>
+			<Block flexAlignSelf="end" width={20} height={20} backgroundColor="lightgreen">3</Block>
 		</Flex>
 
-		<p>Column</p>
+		<p>&nbsp;</p>
 
-		<Flex direction="column">
-			<div>1</div>
-			2
-			<div>3</div>
+		<Flex gap={12} justifyContent="center">
+			<Block width={20} height={20} backgroundColor="lightblue">1</Block>
+			<Block width={20} height={40} backgroundColor="pink">2</Block>
+			<Block flexAlignSelf="end" width={20} height={20} backgroundColor="lightgreen">3</Block>
 		</Flex>
 
-		<Flex direction="column" gap={20}>
-			<Block background="red">1</Block>
-			<Block background="green" flexAlignSelf="start">2</Block>
-			<Block background="blue" flexAlignSelf="end">3</Block>
-			<Block background="cyan">4</Block>
+		<p>&nbsp;</p>
+
+		<Flex gap={2} direction="column" alignItems="start">
+			<Block width={20} height={20} backgroundColor="lightblue">1</Block>
+			<Block flexAlignSelf="end" width={20} height={40} backgroundColor="pink">2</Block>
+			<Block flexAlignSelf="stretch" width={20} height={20} backgroundColor="lightgreen">3</Block>
+		</Flex>
+
+		<p>&nbsp;</p>
+
+		<Flex gap={20}>
+			<Block flex={1} backgroundColor="rgb(250, 250, 250)">1</Block>
+			<Block flex={2} backgroundColor="rgb(200, 200, 200)">2</Block>
+			<Block flex={3} backgroundColor="rgb(150, 150, 150)">3</Block>
+			<Block flex={4} backgroundColor="rgb(100, 100, 100)">4</Block>
+			<Block flex={5} backgroundColor="rgb(50, 50, 50)">5</Block>
+		</Flex>
+
+		<p>&nbsp;</p>
+
+		<Flex gap={20} direction="column">
+			<Block flex={1} backgroundColor="rgb(250, 250, 250)">1</Block>
+			<Block flex={2} backgroundColor="rgb(200, 200, 200)">2</Block>
+			<Block flex={3} backgroundColor="rgb(150, 150, 150)">3</Block>
+			<Block flex={4} backgroundColor="rgb(100, 100, 100)">4</Block>
+			<Block flex={5} backgroundColor="rgb(50, 50, 50)">5</Block>
+		</Flex>
+
+		<p>&nbsp;</p>
+
+		<Flex gap={20}>
+			<Flex gap={20} flex={1} flexAlignSelf="center">
+				<Block flex={1} backgroundColor="lightblue">123</Block>
+				<Block backgroundColor="pink">123</Block>
+			</Flex>
+			<Flex gap={20} flex={2} direction="column">
+				<Block flex={1} backgroundColor="lightblue">123</Block>
+				<Block backgroundColor="pink">123</Block>
+			</Flex>
+			<Flex gap={20} flex={3} flexAlignSelf="end">
+				<Block flex={1} backgroundColor="lightblue">123</Block>
+				<Block backgroundColor="pink">123</Block>
+			</Flex>
 		</Flex>
 
 	</Eml>
