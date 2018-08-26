@@ -1,6 +1,6 @@
 const { render, components, createElement } = require('../eml');
 
-const image = fileName => `https://raw.githubusercontent.com/eml-lib/eml-examples/tree/v1.0.0/images/${fileName}`;
+const image = fileName => `https://raw.githubusercontent.com/eml-lib/eml-examples/v1.0.0/images/${fileName}`;
 
 const {
 	Eml,
