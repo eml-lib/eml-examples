@@ -26,7 +26,7 @@ export default (
 					backgroundColor="#344968"
 					color="#fff"
 				>
-					<div>Приближается важный праздник</div>
+					<div>Приближается важный праздник1</div>
 					<Link
 						to="https://ya.ru"
 						padding={[20, 50]}
