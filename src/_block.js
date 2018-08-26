@@ -1,6 +1,7 @@
 const { render, components, createElement } = require('../eml');
 
 const image = fileName => `https://raw.githubusercontent.com/eml-lib/eml-examples/v1.0.0/images/${fileName}`;
+// const image = fileName => `./images/${fileName}`;
 
 const {
 	Eml,
@@ -24,6 +25,9 @@ export default (
 					padding={[40, 70]}
 					gap={30}
 					backgroundColor="#344968"
+					backgroundImage={image('discount-bg.jpg')}
+					backgroundPosition="center right"
+					backgroundRepeat="no-repeat"
 					color="#fff"
 				>
 					<div>Приближается важный праздник1</div>
