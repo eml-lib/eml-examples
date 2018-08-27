@@ -1,10 +1,11 @@
 const { render, components, createElement } = require('../eml');
 
-// const image = fileName => `https://raw.githubusercontent.com/eml-lib/eml-examples/v1.0.0/images/${fileName}`;
-const image = fileName => `./images/${fileName}`;
+const image = fileName => `https://raw.githubusercontent.com/eml-lib/eml-examples/v1.0.0/images/${fileName}`;
+// const image = fileName => `./images/${fileName}`;
 
 const {
 	Eml,
+	Text,
 	Block,
 	Link,
 	Flex,
@@ -35,7 +36,8 @@ export default (
 						padding={[20, 50]}
 						backgroundColor="#feb020"
 						color="#fff"
-						noUnderline
+						textDecoration={false}
+						borderRadius={3}
 					>
 						Урвать скидон
 					</Link>
@@ -51,13 +53,14 @@ export default (
 						padding={[20, 50]}
 						backgroundColor="#feb020"
 						color="white"
-						noUnderline
+						textDecoration={false}
+						borderRadius={3}
 					>
 						Урвать скидон
 					</Link>
 				</Flex>
-				<Flex direction="column" justifyContent="start" gap={20} padding={[30, 70]} fontSize="13px" lineHeight="22px" color="#6e6e6e">
-					Установите мобильное приложение Avito
+				<Flex direction="column" alignItems="stretch" gap={20} padding={[30, 70]} fontSize="13px" lineHeight="22px" color="#6e6e6e">
+					<Block>Установите мобильное приложение Avito</Block>
 					<Flex gap={20}>
 						<Link to="https://apple.com">
 							<Image src={image('app-store.jpg')} width={151} height={45} />
