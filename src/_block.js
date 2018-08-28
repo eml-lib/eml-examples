@@ -59,7 +59,7 @@ export default (
 						Урвать скидон
 					</Link>
 				</Flex>
-				<Flex direction="column" alignItems="stretch" gap={20} padding={[30, 70]} fontSize="13px" lineHeight="22px" color="#6e6e6e">
+				<Flex direction="column" alignItems="start" gap={20} padding={[30, 70]} fontSize="13px" lineHeight="22px" color="#6e6e6e">
 					<Block>Установите мобильное приложение Avito</Block>
 					<Flex gap={20}>
 						<Link to="https://apple.com">
@@ -78,7 +78,7 @@ export default (
 							Если у вас возникли вопросы, <Link to="http://ya.ru" color="black">попробуйте найти ответы</Link> в разделе Помощь.
 						</Block>
 					</Block>
-					<Link to="http://ya.ru" color="black">Отписаться от рассылки</Link>
+					<Link to="http://ya.ru" color="black" backgroundColor="lightblue">Отписаться от рассылки</Link>
 				</Flex>
 			</Block>
 		</Flex>
