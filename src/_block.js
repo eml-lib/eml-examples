@@ -28,9 +28,8 @@ export default (
 					backgroundColor="#344968"
 					backgroundImage={image('discount-bg.jpg')}
 					backgroundPosition="center right"
-					color="#fff"
 				>
-					<div>Приближается важный праздник</div>
+					<Block color="#fff">Приближается важный праздник</Block>
 					<Link
 						to="https://ya.ru"
 						padding={[20, 50]}
@@ -43,7 +42,7 @@ export default (
 					</Link>
 				</Flex>
 				<Flex direction="column" alignItems="start" gap={30} padding={[40, 70]} borderBottom="1px solid #ebecee">
-					<div>В дни, когда принято поздравлять ветеранов и радоваться мирному небу, у вас наверняка будет много дел. Но найдите минуточку, чтобы заглянуть в личный кабинет на Авито. Для чего?</div>
+					<Text>В дни, когда принято поздравлять ветеранов и радоваться мирному небу, у вас наверняка будет много дел. Но найдите минуточку, чтобы заглянуть в личный кабинет на Авито. Для чего?</Text>
 					<Block backgroundColor="#f8f5e2" padding={[20, 30]}>
 						Чтобы использовать акцию по-максимому, добавьте объявление прямо сейчас, а 8 или 9 мая подключите «усилители». Действуйте!
 					</Block>
@@ -60,7 +59,7 @@ export default (
 					</Link>
 				</Flex>
 				<Flex direction="column" alignItems="start" gap={20} padding={[30, 70]} fontSize="13px" lineHeight="22px" color="#6e6e6e">
-					<Block>Установите мобильное приложение Avito</Block>
+					<Text>Установите мобильное приложение Avito</Text>
 					<Flex gap={20}>
 						<Link to="https://apple.com">
 							<Image src={image('app-store.jpg')} width={151} height={45} />
@@ -70,7 +69,7 @@ export default (
 						</Link>
 					</Flex>
 					<Block>
-						<Block>Возрастное ограничение 16+</Block>
+						<Text>Возрастное ограничение 16+</Text>
 						<Block>
 							Вы получили это письмо, потому что являетесь <Link to="http://ya.ru" color="black">зарегистрированным пользователем</Link> сайта Avito.
 						</Block>
@@ -78,7 +77,7 @@ export default (
 							Если у вас возникли вопросы, <Link to="http://ya.ru" color="black">попробуйте найти ответы</Link> в разделе Помощь.
 						</Block>
 					</Block>
-					<Link to="http://ya.ru" color="black" backgroundColor="lightblue">Отписаться от рассылки</Link>
+					<Link to="http://ya.ru" color="black">Отписаться от рассылки</Link>
 				</Flex>
 			</Block>
 		</Flex>
